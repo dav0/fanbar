@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_fanbar_cw_domain_Regalia" object="${regalia}" path="/regalias" z="V0T9yOem/mbZv9U9ab8DZD1ZiTA=">
+        <field:display field="name" id="s_org_fanbar_cw_domain_Regalia_name" object="${regalia}" z="cAIzltMecEFrXk/d2f/c2GY1OGg="/>
+        <field:display field="lighterColor" id="s_org_fanbar_cw_domain_Regalia_lighterColor" object="${regalia}" z="9uT32x14AoS7G3vXPOArKv/vZnE="/>
+        <field:display field="darkerColor" id="s_org_fanbar_cw_domain_Regalia_darkerColor" object="${regalia}" z="tKaUoODhHSZ28TwMqiV41AsgpLA="/>
+        <field:display field="lighterColorDesc" id="s_org_fanbar_cw_domain_Regalia_lighterColorDesc" object="${regalia}" z="zkSkD8pq79YHFd866MBP+k77C2Q="/>
+        <field:display field="darkerColorDesc" id="s_org_fanbar_cw_domain_Regalia_darkerColorDesc" object="${regalia}" z="oU/kT7Hh0sCqouRQ9OAuqKxbXGs="/>
+        <field:display field="patternUrl" id="s_org_fanbar_cw_domain_Regalia_patternUrl" object="${regalia}" z="gvnbSD7wv8iZNAbcMEwFc0fIdVs="/>
+    </page:show>
+</div>

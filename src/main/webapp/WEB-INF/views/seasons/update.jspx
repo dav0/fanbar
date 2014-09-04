@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_fanbar_cw_domain_Season" modelAttribute="season" path="/seasons" versionField="none" z="PvPk6+BKdfiU/uYWpMItGDHiw60=">
+        <field:simple field="contests" id="c_org_fanbar_cw_domain_Season_contests" messageCode="entity_reference_not_managed" messageCodeAttribute="Contest" z="zzrdl5fhdt+NaUYLClvKrz1WnY4="/>
+        <field:select field="event" id="c_org_fanbar_cw_domain_Season_event" itemValue="id" items="${events}" path="/events" z="splz4La+hmyw9hWWwew/D//V5j8="/>
+        <field:input field="name" id="c_org_fanbar_cw_domain_Season_name" required="true" z="+jpilyhwKjA3BEiMlqRO4HvG4eI="/>
+    </form:update>
+</div>

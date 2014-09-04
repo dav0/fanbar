@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="heroes/list">
+        <put-attribute name="body" value="/WEB-INF/views/heroes/list.jspx"/>
+    </definition>
+<definition extends="default" name="heroes/show">
+        <put-attribute name="body" value="/WEB-INF/views/heroes/show.jspx"/>
+    </definition>
+<definition extends="default" name="heroes/create">
+        <put-attribute name="body" value="/WEB-INF/views/heroes/create.jspx"/>
+    </definition>
+<definition extends="default" name="heroes/update">
+        <put-attribute name="body" value="/WEB-INF/views/heroes/update.jspx"/>
+    </definition>
+<definition extends="default" name="heroes/findHeroesByNameEquals">
+        <put-attribute name="body" value="/WEB-INF/views/heroes/findHeroesByNameEquals.jspx"/>
+    </definition>
+<definition extends="default" name="heroes/findHeroesByNameLike">
+        <put-attribute name="body" value="/WEB-INF/views/heroes/findHeroesByNameLike.jspx"/>
+    </definition>
+</tiles-definitions>

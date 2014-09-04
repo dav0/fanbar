@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_fanbar_cw_domain_Event" object="${event}" path="/events" z="QcVlOlTtVHnM2gW6FtorkucuB5g=">
+        <field:display field="name" id="s_org_fanbar_cw_domain_Event_name" object="${event}" z="UmcBCDY0DxzSD9fOUu5mUaeNBok="/>
+        <field:display calendar="true" dateTimePattern="${event_begin_date_format}" field="begin" id="s_org_fanbar_cw_domain_Event_begin" object="${event}" z="WhrbwY0694SjpC6u8eKnuXuOfDc="/>
+        <field:display calendar="true" dateTimePattern="${event_end_date_format}" field="end" id="s_org_fanbar_cw_domain_Event_end" object="${event}" z="ATpfknTD901A/s3K/9PvEfKXqe0="/>
+    </page:show>
+</div>

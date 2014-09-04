@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_fanbar_cw_domain_Person" items="${people}" z="V7U2iWDX+MhS/9BKhjEjf7MyTbc=">
+        <table:table data="${people}" id="l_org_fanbar_cw_domain_Person" path="/people" z="KLa/hFaVDOC62Hm7j5CRvDu4o0A=">
+            <table:column id="c_org_fanbar_cw_domain_Person_username" property="username" z="WbMlCMPq7HlyLXUtCoi8m3lij/c="/>
+            <table:column id="c_org_fanbar_cw_domain_Person_email" property="email" z="E6huJB2efg42rw88U9xptijfQB4="/>
+        </table:table>
+    </page:list>
+</div>

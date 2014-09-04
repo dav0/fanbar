@@ -1,0 +1,12 @@
+#
+# Windows version
+# database
+database.password=
+database.url=jdbc:mysql://localhost:3306/cheerdb?createDatabaseIfNotExist=true
+database.username=root
+database.driverClassName=com.mysql.jdbc.Driver
+
+# hibernate.X
+hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+hibernate.show_sql=false
+hibernate.hbm2ddl.auto=create-drop

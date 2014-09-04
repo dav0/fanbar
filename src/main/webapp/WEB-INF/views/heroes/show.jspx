@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_fanbar_cw_domain_Hero" object="${hero}" path="/heroes" z="okvY1sB+RCDngzw+136s9/dv6s8=">
+        <field:display field="image" id="s_org_fanbar_cw_domain_Hero_image" object="${hero}" z="klYlmMLNGXdkALwTjyMNacMiWIQ="/>
+        <field:display field="regalia" id="s_org_fanbar_cw_domain_Hero_regalia" object="${hero}" z="LAfuW9+s/JatTRvjYRWATiMlrwo="/>
+        <field:display field="creator" id="s_org_fanbar_cw_domain_Hero_creator" object="${hero}" z="JHbrdJnNVzM8p8JQ0vqpz1HtgnM="/>
+        <field:display field="name" id="s_org_fanbar_cw_domain_Hero_name" object="${hero}" z="oJsyZ87+L7KQcnrsSAdAl3W+NsM="/>
+        <field:display field="cheers" id="s_org_fanbar_cw_domain_Hero_cheers" object="${hero}" z="yFmaJmcaGR5unKzaAg9Jtushz4s="/>
+        <field:display field="wins" id="s_org_fanbar_cw_domain_Hero_wins" object="${hero}" z="GP/cJE9lzWg+cssoegjuAMuE8ag="/>
+    </page:show>
+</div>

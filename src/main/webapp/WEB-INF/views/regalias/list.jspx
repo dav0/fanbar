@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_fanbar_cw_domain_Regalia" items="${regalias}" z="jO7yov4AAvS4tz+njQeuDLqYntQ=">
+        <table:table data="${regalias}" id="l_org_fanbar_cw_domain_Regalia" path="/regalias" z="JUaEDonzlRRYMU/Psxy/DlAwX+c=">
+            <table:column id="c_org_fanbar_cw_domain_Regalia_name" property="name" z="GEVSgSZ9kZRVxhHb2nvHNkXSuro="/>
+            <table:column id="c_org_fanbar_cw_domain_Regalia_lighterColor" property="lighterColor" z="+9OXNG6ubQBBsC4DTEdMiYSE0K0="/>
+            <table:column id="c_org_fanbar_cw_domain_Regalia_darkerColor" property="darkerColor" z="dacbPg6XNJCdqSQApbEIfM2mPZ0="/>
+            <table:column id="c_org_fanbar_cw_domain_Regalia_lighterColorDesc" property="lighterColorDesc" z="tKChUmCUf7EavNLTEHevefUL1b4="/>
+            <table:column id="c_org_fanbar_cw_domain_Regalia_darkerColorDesc" property="darkerColorDesc" z="ymTkZSgd5rrrXD1WxeN+yXEu3PU="/>
+        </table:table>
+    </page:list>
+</div>

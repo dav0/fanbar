@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_fanbar_cw_domain_Fan" items="${fans}" z="pPUQx4vvn4CRN6Are68JzPsfNKc=">
+        <table:table data="${fans}" id="l_org_fanbar_cw_domain_Fan" path="/fans" z="Asen33ydgdYVHCuGcw2HrLMgXdk=">
+            <table:column id="c_org_fanbar_cw_domain_Fan_hero" property="hero" z="0h1fh81a46Y3t8Khtc+PrbkCtWg="/>
+            <table:column id="c_org_fanbar_cw_domain_Fan_person" property="person" z="jDxZUe40BzgyCuhl9P/4K4vaZRs="/>
+            <table:column id="c_org_fanbar_cw_domain_Fan_image" property="image" z="plv+g2ngrIKOUvkWAQhTw+oqS2s="/>
+            <table:column id="c_org_fanbar_cw_domain_Fan_name" property="name" z="cgxtF011T6kVmyHxEZjknRGVCGc="/>
+            <table:column id="c_org_fanbar_cw_domain_Fan_totalCheers" property="totalCheers" z="cG+XVRNkDjBWieeByJhvGFvZvLk="/>
+        </table:table>
+    </page:list>
+</div>

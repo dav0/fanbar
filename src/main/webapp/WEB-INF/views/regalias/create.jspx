@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_org_fanbar_cw_domain_Regalia" modelAttribute="regalia" path="/regalias" render="${empty dependencies}" z="Yp/1XJGtqHat3d3LJjxXRBDaPS4=">
+        <field:simple field="heroes" id="c_org_fanbar_cw_domain_Regalia_heroes" messageCode="entity_reference_not_managed" messageCodeAttribute="Hero" z="eFLBw5CDZaB9FJiuMPOGjjmr6zI="/>
+        <field:input field="name" id="c_org_fanbar_cw_domain_Regalia_name" z="h74wpseHtIeC1WIfOdyq34S23nU="/>
+        <field:input field="lighterColor" id="c_org_fanbar_cw_domain_Regalia_lighterColor" z="NVgSgFe3cMuWzkjB0eKVbGm5bwA="/>
+        <field:input field="darkerColor" id="c_org_fanbar_cw_domain_Regalia_darkerColor" z="27JarutpqbdPOomrxGGp9jIS0WY="/>
+        <field:input field="lighterColorDesc" id="c_org_fanbar_cw_domain_Regalia_lighterColorDesc" z="MWr4x4rKKbUtoOLXNwYlc8zWbyc="/>
+        <field:input field="darkerColorDesc" id="c_org_fanbar_cw_domain_Regalia_darkerColorDesc" z="Qk9WLolTV6NKebKfPNKx9cTNmZU="/>
+        <field:input field="patternUrl" id="c_org_fanbar_cw_domain_Regalia_patternUrl" z="/ysgaWRBqLaMyfmoHNqa46xfmMM="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_org_fanbar_cw_domain_Regalia" render="${not empty dependencies}" z="uGJB3oHXrMetEEtLFZo6/3U+pdE="/>
+</div>

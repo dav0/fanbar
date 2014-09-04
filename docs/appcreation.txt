@@ -1,0 +1,24 @@
+The cheerwar (cw) application was initially generated using Spring Roo version 1.2.5.RELEASE.
+
+After the scaffolding was completed, so changes were made to arrive at limited CRUD control for the "user" role versus the full CRUD control of the "admin" role.  These notes briefly touch on these changes (caution - this doc is old and needs more review).
+
+0. Begin by modelling the database using MySql Workbench (model= cw.mwb)
+
+1. See cw.roo for initial crud and flow scaffolding steps
+
+2. UI changes
+
+	. admin
+		. mkdir views/admin
+		. refactor each initial crud directory into admin (i.e. contests, etc.)
+		. copy views/index.jspx to views/admin/index.jspx
+		. edit views.xml
+			. add following entry:
+
+  <definition extends="default" name="admin">
+    <put-attribute name="body" value="/WEB-INF/views/admin/index.jspx"/>
+  </definition>
+			
+3. Write Angular.js based Rest Client app to feed off of this serverside app (TBD).
+	
+	

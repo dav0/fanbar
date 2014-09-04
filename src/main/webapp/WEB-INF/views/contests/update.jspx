@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_fanbar_cw_domain_Contest" modelAttribute="contest" path="/contests" versionField="none" z="bk1xA9he+j2DA/pY6MDhfsHVDrk=">
+        <field:select field="season" id="c_org_fanbar_cw_domain_Contest_season" itemValue="id" items="${seasons}" path="/seasons" z="854bWNxfk+RT+yQfvr6irs1nAGM="/>
+        <field:select field="homeHero" id="c_org_fanbar_cw_domain_Contest_homeHero" itemValue="id" items="${heroes}" path="/heroes" z="zoIHlHDiBF5knG+8MXqcV5ccvT8="/>
+        <field:select field="visitorHero" id="c_org_fanbar_cw_domain_Contest_visitorHero" itemValue="id" items="${heroes}" path="/heroes" z="T/w3wzWhtVpQgMYM2xBLT6xQWxA="/>
+        <field:select field="event" id="c_org_fanbar_cw_domain_Contest_event" itemValue="id" items="${events}" path="/events" z="sJ3FVTL2IrmHsOJ17MDg/sqeYmw="/>
+        <field:select field="image" id="c_org_fanbar_cw_domain_Contest_image" itemValue="id" items="${images}" path="/images" z="lMds/NScbLXCGggleS1+rRIRLu0="/>
+        <field:select field="creator" id="c_org_fanbar_cw_domain_Contest_creator" itemValue="id" items="${people}" path="/people" z="NhRlov4SGsxAOk0xU+xpXp4FmWc="/>
+        <field:input field="name" id="c_org_fanbar_cw_domain_Contest_name" required="true" z="9sDAg0fSV7BIejXFJwr8FiKnSVQ="/>
+        <field:input field="homeScore" id="c_org_fanbar_cw_domain_Contest_homeScore" validationMessageCode="field_invalid_number" z="4sq+YCI9YVSX+C9nYQAfu5+AmmM="/>
+        <field:input field="visitorScore" id="c_org_fanbar_cw_domain_Contest_visitorScore" validationMessageCode="field_invalid_number" z="LwtgB7S0xVEg3K6OUq6s3j8GRX8="/>
+    </form:update>
+</div>

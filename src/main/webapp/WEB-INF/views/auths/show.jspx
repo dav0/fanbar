@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_fanbar_cw_domain_Auth" object="${auth}" path="/auths" z="xBamk7l2hN6AYsU+agStYMP5tUA=">
+        <field:display field="person" id="s_org_fanbar_cw_domain_Auth_person" object="${auth}" z="Ud8JB3Y12qbJRJfyBVTyKqKRKOU="/>
+        <field:display field="role" id="s_org_fanbar_cw_domain_Auth_role" object="${auth}" z="tzyeQtKMQ33jQ3HgXgtwUtCVbdw="/>
+    </page:show>
+</div>

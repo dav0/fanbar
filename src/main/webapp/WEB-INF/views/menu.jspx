@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" xmlns:security="http://www.springframework.org/security/tags" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <h2>User Menu</h2>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_fan" z="wHUpxpoXe/mTtyPfVfn54WFP2rc=">
+            <menu:item id="i_fan_new" messageCode="global_menu_new" url="/fans?form" z="Z8PM0PlyUAhLTp/hwrE/n3u2xWQ="/>
+            <menu:item id="i_fan_list" messageCode="global_menu_list" url="/fans?page=1&amp;size=${empty param.size ? 10 : param.size}" z="z7oXspnC5coJYrGuPA/lMmwtpDg="/>
+            <menu:item id="fi_fan_name" messageCode="global_menu_find" url="/fans?find=ByName&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="3CX8Ty8xZm9A4ZthzaVR5JIKRMc="/>
+        </menu:category>
+        <menu:category id="c_hero" z="ydDin4HNGMhPnSpK+mdjX1ahhBw=">
+<!--        <menu:item id="i_hero_new" messageCode="global_menu_new" url="/heroes?form" z="EBQNnuK0n/UkFIGkZD3XBkURm8Y="/>  -->
+            <menu:item id="i_hero_list" messageCode="global_menu_list" url="/heroes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="sBIZOu4yY2B6Pkv2wkGtSBnIegs="/>
+            <menu:item id="fi_hero_nameequals" messageCode="global_menu_find" url="/heroes?find=ByNameEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="GJl0x9wk06hugT8qGnY7EOL31LQ="/>
+            <menu:item id="fi_hero_namelike" messageCode="global_menu_find" url="/heroes?find=ByNameLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="ciY/hnMRDFPPmdjV9ELzTBEYtCY="/>
+        </menu:category>
+        <menu:category id="c_contest" z="Rw+fEVcwL7PdItDqhYRCX5lY8yw=">
+<!--        <menu:item id="i_contest_new" messageCode="global_menu_new" url="/contests?form" z="ZD6htS+BPjSzlPWMMu7jY3yLdlE="/>  -->
+            <menu:item id="i_contest_list" messageCode="global_menu_list" url="/contests?page=1&amp;size=${empty param.size ? 10 : param.size}" z="g3NBtvTa/GC8abTjHhI+ySlTJnU="/>
+            <menu:item id="fi_contest_nameequals" messageCode="global_menu_find" url="/contests?find=ByNameEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="BaoGtHc4TaJOlP40y+J/HzSjD9A="/>
+            <menu:item id="fi_contest_namelike" messageCode="global_menu_find" url="/contests?find=ByNameLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="GrOkOdC9SFh+Xj6saKY0KhQBgEk="/>
+        </menu:category>
+    </menu:menu>
+</div>

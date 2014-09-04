@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_fanbar_cw_domain_Image" object="${image}" path="/images" z="r3Kg2cmL8XBZ5MqIsYQxJVEvd0A=">
+        <field:display field="name" id="s_org_fanbar_cw_domain_Image_name" object="${image}" z="it2UBh7LzdwJL7DwdKZN8568Hns="/>
+        <field:display field="imageUrl" id="s_org_fanbar_cw_domain_Image_imageUrl" object="${image}" z="RV/6HWMjDyKa8G90Fid8CFHeQgY="/>
+        <field:display field="XOffset" id="s_org_fanbar_cw_domain_Image_xOffset" object="${image}" z="fh4W2gIOdPyDI/AG/5bprE/FCWo="/>
+        <field:display field="XLength" id="s_org_fanbar_cw_domain_Image_xLength" object="${image}" z="VmJWi+BpcDzsp8qKq9hiWIVVeDA="/>
+        <field:display field="YOffset" id="s_org_fanbar_cw_domain_Image_yOffset" object="${image}" z="pltqpjWURVooehuQiy1hbWpnc7E="/>
+        <field:display field="YLength" id="s_org_fanbar_cw_domain_Image_yLength" object="${image}" z="AfGZ5m4AN4m0/Gv8TntFzoQJLTs="/>
+    </page:show>
+</div>

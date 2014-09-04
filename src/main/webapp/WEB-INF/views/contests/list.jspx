@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_fanbar_cw_domain_Contest" items="${contests}" z="CUYe0KFFzd3uLAFsqHkE4XLa8B4=">
+        <table:table data="${contests}" id="l_org_fanbar_cw_domain_Contest" path="/contests" z="tPRunf0aInnK7LFgcxe2R84LD34=">
+            <table:column id="c_org_fanbar_cw_domain_Contest_season" property="season" z="fOwWLhky/GkHwAPQOp4MCrq7AHU="/>
+            <table:column id="c_org_fanbar_cw_domain_Contest_homeHero" property="homeHero" z="NxvNNVZTlmvMQ+0IU9JZhD4YYSg="/>
+            <table:column id="c_org_fanbar_cw_domain_Contest_visitorHero" property="visitorHero" z="AEPOpQauiJ36cyi6BQdIUIbdsUo="/>
+            <table:column id="c_org_fanbar_cw_domain_Contest_event" property="event" z="b7bg2j6oydSXG30BCxEHa8/v9AM="/>
+            <table:column id="c_org_fanbar_cw_domain_Contest_image" property="image" z="cwHmaIzzMAqeGCIS9u5Ksnd7zxs="/>
+            <table:column id="c_org_fanbar_cw_domain_Contest_creator" property="creator" z="RpbrsXUgr6EUt8x0W2UAYNlWnfQ="/>
+        </table:table>
+    </page:list>
+</div>

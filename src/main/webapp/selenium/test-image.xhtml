@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+<link href="http://localhost:8080/" rel="selenium.base"/>
+<title>Selenium test for ImageController</title>
+</head>
+<body>
+    <table border="1" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <td colspan="3" rowspan="1">Selenium test for ImageController</td>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+                    <td>open</td>
+                    <td>http://localhost:8080/cw/images?form&amp;lang=en_US</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_name_id</td>
+                    <td>someName1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_imageUrl_id</td>
+                    <td>someImageUrl1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_xOffset_id</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_xLength_id</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_yOffset_id</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_yLength_id</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>clickAndWait</td>
+                    <td>//input[@id = 'proceed']</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_org_fanbar_cw_domain_Image_name_name_id</td>
+                    <td>someName1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_org_fanbar_cw_domain_Image_imageUrl_imageUrl_id</td>
+                    <td>someImageUrl1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_org_fanbar_cw_domain_Image_xOffset_xOffset_id</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_org_fanbar_cw_domain_Image_xLength_xLength_id</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_org_fanbar_cw_domain_Image_yOffset_yOffset_id</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_org_fanbar_cw_domain_Image_yLength_yLength_id</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+    </table>
+</body>
+</html>

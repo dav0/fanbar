@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_fanbar_cw_domain_Event" items="${events}" z="nVvCPISKQ8XzO3tin4LX9ru/2uY=">
+        <table:table data="${events}" id="l_org_fanbar_cw_domain_Event" path="/events" z="aMh+pidJ49e0GwteL/yCxbL6zCQ=">
+            <table:column id="c_org_fanbar_cw_domain_Event_name" property="name" z="5A7bhMbGr78G73bAF+jP3zIFN4k="/>
+            <table:column calendar="true" dateTimePattern="${event_begin_date_format}" id="c_org_fanbar_cw_domain_Event_begin" property="begin" z="DLQ6gAYld1IMwc5LJBK7KF/t9Vs="/>
+            <table:column calendar="true" dateTimePattern="${event_end_date_format}" id="c_org_fanbar_cw_domain_Event_end" property="end" z="7HmIUDE/scvEwQT+QcK7tbJLa54="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_fanbar_cw_domain_Contest" object="${contest}" path="/contests" z="c51WFbjo/TD9g67Ugn6f9hUPP6M=">
+        <field:display field="season" id="s_org_fanbar_cw_domain_Contest_season" object="${contest}" z="g6a3QqHXNPWwEmevnkXoP2ZmZ5I="/>
+        <field:display field="homeHero" id="s_org_fanbar_cw_domain_Contest_homeHero" object="${contest}" z="BpPDm4kvKqLp8ba5y31sR580ZHc="/>
+        <field:display field="visitorHero" id="s_org_fanbar_cw_domain_Contest_visitorHero" object="${contest}" z="gpKHNgRvUXX1g/Le6BvFwSnBymc="/>
+        <field:display field="event" id="s_org_fanbar_cw_domain_Contest_event" object="${contest}" z="lNGE7QSGnwma6ZJz1hmWC+EO1k4="/>
+        <field:display field="image" id="s_org_fanbar_cw_domain_Contest_image" object="${contest}" z="Qk5oHgB9N7Xo5LikwKpsaMElC2w="/>
+        <field:display field="creator" id="s_org_fanbar_cw_domain_Contest_creator" object="${contest}" z="mbrBIgSlTzWEYwgYu3cgipICQbw="/>
+        <field:display field="name" id="s_org_fanbar_cw_domain_Contest_name" object="${contest}" z="sGUo/fr1ygh+rt79fEg0I5LpxYU="/>
+        <field:display field="homeScore" id="s_org_fanbar_cw_domain_Contest_homeScore" object="${contest}" z="lXzVlEA2993X9S47ojXArR/5M/M="/>
+        <field:display field="visitorScore" id="s_org_fanbar_cw_domain_Contest_visitorScore" object="${contest}" z="VknGgdqRM1bkwRmPV4ZZiX7s91o="/>
+    </page:show>
+</div>
